@@ -1,0 +1,511 @@
+/* common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/* common css end  */
+a, a:hover {
+    color: #fff;
+}
+/* header part start  */
+#header_part{
+    background-color:#150035;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:9;
+    width:100%;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.logo_img{
+    width:216px;
+    height:100px;
+}
+.nav-item{
+   padding-right: 40px;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight:400;
+    color:#944bff;
+    font-family: 'Nunito', sans-serif;  
+}
+.nav-link:hover{
+    color:#e629c3; 
+}
+.btn-primary {
+    background-color: #944bff;
+    border:none;
+    padding:15px 26px;
+    font-size:20px;
+    font-weight:500;
+    font-family: 'Anton', sans-serif;
+}
+.btn-primary:hover {
+    background-color: #e629c3;
+}
+/* header part end */
+/* banner part start  */
+#banner_part{
+   
+    padding-top: 150px;
+    padding-bottom: 300px;
+    background-color: #150035;
+    position:relative;
+}
+.banner_left_image{
+    position: absolute;
+    left: -100px;
+    top:170px;
+}
+.banner_right_part .banner_head{
+    font-size: 20px;
+    color:#fff;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom:-50px;
+}
+.banner_right_image{
+    margin-left:-60px;
+}
+.banner_likha{
+    font-size: 16px;
+    color:#fff;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    line-height: 26px;
+    margin-top:-30px;
+  
+}
+.banner_btn{
+    margin-top: 32px;
+}
+.banner_btn button{
+    background-color: #944bff;
+    font-size:24px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+}
+
+/* banner part end  */
+
+/* rge part start  */
+
+.banner_rge_part {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 1170px;
+}
+.banner_rge_part .col-lg-4 {
+    padding: 0 0px;
+}
+.rge_number{
+    background-image: linear-gradient(to right,#5b16c0,#6419d2);
+    padding:33px;
+    width:100%;
+}
+.rge_number h4{
+    color: #f2a310;
+    font-size:50px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+}
+.rge_number h3 a{
+    color: #fff;
+    font-size:32px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+    margin-top:27px;
+    margin-bottom: 16px;
+}
+.rge_number p a{
+    color: #fff;
+    font-size:15px;
+    font-weight:400;
+    font-family:'Nunito', sans-serif;
+}
+/* rge part end */
+
+
+/* related part start  */
+#related_part{
+    padding-top: 177px;
+    padding-bottom: 100px;
+    background-color:#0b001b;
+}
+.related_heading{
+    text-align: center;
+    background-image: radial-gradient(#1f002c, #0b001b);
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+.related_heading h3{
+    color: #feb702;
+    font-size:48px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+    margin-top:27px;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px 8px red;
+}
+
+.casino_games_card{
+   
+}
+.casino_games_card1{
+    background: url("../images/casino-games-bar-picture.jpg ");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.casino_games_card2{
+    background: url("../images/casino_games-chorki-image.jpg ");  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.casino_games_card3{
+    background: url("../images/casino-games-last-picture.jpg ");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.casino_card_overlay{
+    background-color:#1500357a;
+    padding-top: 160px;
+    padding-bottom:55px;
+    visibility: hidden;
+    opacity:0;
+}
+.casino_games_card:hover .casino_card_overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.casino_card_overlay h4{
+    color: #fff;
+    font-size:24px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+}
+.casino_card_overlay button{
+    color: #fff;
+    font-size:24px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+    margin-top: 51px;
+}
+/* related part end */
+
+/* unlock part start  */
+#unlock_part{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #150035;
+}
+.unlock_image img{
+   
+}
+.unlock_desc{
+    
+}
+.unlock_desc h3{
+    color: #feb702;
+    font-size:48px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 54px;
+}
+.unlock_desc p{
+    color: #fff;
+    font-size:16px;
+    font-weight:400;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 60px;
+    line-height: 26px;
+}
+.unlock_desc button{
+    color: #fff;
+    font-size:24px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+   
+}
+/* unlock part end  */
+
+
+
+
+
+/* pricing part start  */
+#pricing_part{
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-color:#0b001b;
+}
+.pricing_heading{
+    text-align: center;
+    background-image: radial-gradient(#1f002c, #0b001b);
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+.pricing_heading h3{
+    color: #feb702;
+    font-size:48px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+    margin-top:27px;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px 8px red;
+}
+.pricing_featured{
+    background-color: #ce1aac;
+    padding:19px 0;
+    width: 100%;
+    border-bottom:6px solid #661355;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+
+.pricing_featured p{
+    font-size:20px;
+    font-weight:600;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.pricing_card{
+    background-color:#9647f6;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.pricing_part_card:hover .pricing_featured{
+    visibility: visible;
+    opacity: 1;
+}
+.pricing_card h4{
+    font-size:32px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+    margin-top:27px;
+    margin-bottom: 26px;
+    text-shadow: 2px 2px 8px rgb(63, 62, 62);
+}
+.pricing_card h5{
+    font-size:50px;
+    font-weight:700;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 12px;
+}
+.pricing_card .pricing_p{
+    font-size:14px;
+    font-weight:400;
+    font-family: 'Nunito', sans-serif; 
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(49, 48, 48);
+    display:block;
+    margin-bottom: 26px;
+}
+.pricing_card p{
+    font-size:16px;
+    font-weight:600;
+    font-family: 'Nunito', sans-serif; 
+    padding-bottom: 30px;
+    padding-bottom: 26px;
+}
+
+.pricing_part_card:hover .btn_btnn{
+    background-color: #ce1aac;
+}
+.btn-primary {
+    background-color: #5e13cd;
+    margin-top: -34px;
+}
+
+/* pricing part end */
+
+/* dealing part start  */
+#dealing_part{
+    padding-top:94px;
+    padding-bottom: 100px;
+    background-color:#150035;
+}
+.question_part h4{
+    color: #feb702;
+    font-size:40px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 30px;
+    border-bottom:1px solid black;
+}
+.tournament_part h4{
+    color: #feb702;
+    font-size:40px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 30px;
+    border-bottom:1px solid black;
+}
+/* dealing part end  */
+/* subscriber part start  */
+#subscriber_part{
+    padding:33px 0;
+    background-color:#8133e6;
+    border-bottom:5px solid #3a0090;
+}
+.subscriber_left{}
+.subscriber_left h4{
+    color: #fff;
+    font-size:32px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 20px;
+}
+.subscriber_right{
+   
+}
+.subscriber_right h4{
+    color: #fff;
+    font-size:32px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 35px;
+
+}
+
+ .mailling{
+    width: 100%;
+    background: transparent;
+    border: 1px solid black;
+    color:#0b001b;
+    padding:20px 0;
+}
+.mail_img{
+    border:1px solid black;
+    padding:12.5px 5px;
+    margin-left:-25px;
+}
+.mail_img img{
+    width: 100%;
+}
+
+/* subscriber part end  */
+/* footer part start  */
+#footer_part{
+    padding-top:60px;
+    padding-bottom: 30px;
+    background-color:#0b001b ;
+    border-bottom:3px solid black;
+}
+.footer_heading h4{
+    color: #fff;
+    font-size:32px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 26px;
+}
+.footer_heading p{
+    color: #fff;
+    font-size:16px;
+    font-weight:300;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 26px;
+    line-height: 26px;
+}
+.footer_icon{
+   
+}
+.iconnn{
+    display: inline-block;
+   padding:10px;
+   width:50px;
+   background-color: #6115cf;
+   color:#fff;
+   border-bottom:3px solid #3a0090;
+  margin-right:15px;
+}
+.iconnn a{
+   font-size:20px;
+}
+.iconnn:hover{
+   background-color: #f02fcd;
+   border-bottom:3px solid #661355;
+}
+.footer_link h4{
+    color: #fff;
+    font-size:32px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 26px;
+}
+.footer_link p{
+    color: #fff;
+    font-size:16px;
+    font-weight:300;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+.footer_info h4{
+    color: #fff;
+    font-size:32px;
+    font-weight:400;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 26px;
+}
+.immm{
+    margin-bottom: 36px;
+}
+.footer_info p{
+    color: #fff;
+    font-size:16px;
+    font-weight:300;
+    font-family: 'Nunito', sans-serif;
+    line-height: 26px;
+   margin-top:20px;
+}
+.lklk{
+    padding-bottom:60px;
+}
+#foot{
+    padding:20px;
+    background-color: #0b001b;
+    text-align:center;
+    border-top:1px solid #3a0090;
+}
+#foot p{
+    font-size:18px;
+    color:#fff;
+}
+/* footer part end  */
+
+
+
+
+
+
+
+
+/* font-family: 'Anton', sans-serif; */
+/* font-family: 'Nunito', sans-serif; */
